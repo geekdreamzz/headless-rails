@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     headless-rails (0.1.0)
+      pg
       rails (>= 7.0.4.3)
       rails_components (>= 0.1.0)
       tailwindcss-rails (>= 2.0.25)
@@ -116,6 +117,7 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.14.2-arm64-darwin)
       racc (~> 1.4)
+    pg (1.4.6)
     racc (1.6.2)
     rack (2.2.6.4)
     rack-test (2.1.0)
@@ -174,6 +176,8 @@ PLATFORMS
 
 DEPENDENCIES
   headless-rails!
+  pg
+  rails
   rails_components (>= 0.1.0)!
   sprockets-rails
 
