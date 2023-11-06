@@ -5,7 +5,7 @@ module Headless
 
       included do
         helper_method :crud_model
-        before_action :set_model, only: [:show, :edit, :update, :destroy]
+        before_action :set_model, only: [:show, :edit, :update, :destroy, :playground]
       end
 
       def create
